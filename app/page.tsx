@@ -1,9 +1,11 @@
 const Home = () => {
-  return (
-    <div>
-      <h1 className= "flexCenter text-red-700">Home</h1>
-    </div>
-  )
-}
+	return (
+		<section className='flex-start flex-col paddings mb-16'>
+			<h1>Cataegories</h1>
+			<h1>Posts</h1>
+			<h1>LoadMore</h1>
+		</section>
+	);
+};
 
-export default Home
+export default Home;
